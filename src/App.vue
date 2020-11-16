@@ -6,7 +6,7 @@
 
 <script>
 import Home from "./components/Home.vue";
-
+// sw
 export default {
   name: "App",
   components: {

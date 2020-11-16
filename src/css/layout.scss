@@ -1,3 +1,4 @@
+// flex布局
 @mixin flex($direction:colum, $inline:block) {
     display: if($inline==block, flex, inline-flex);
     flex-direction: $direction;
