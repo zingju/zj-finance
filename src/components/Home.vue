@@ -1,13 +1,17 @@
 <template>
   <div>
-    <h1>Home</h1>
+    <Heador></Heador>
+    <Hslider></Hslider>
   </div>
 </template>
 
 <script>
+import Heador from "./Header";
+import Hslider from "./Hslider";
 export default {
-  // ------
+  components: {
+    Heador,
+    Hslider,
+  },
 };
 </script>
-<style lang="scss">
-</style>

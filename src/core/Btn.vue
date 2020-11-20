@@ -1,6 +1,6 @@
 <template>
   <div :class="[btnClass, cname]">
-    <slot />
+    <slot></slot>
   </div>
 </template>
 <script>

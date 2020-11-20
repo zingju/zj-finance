@@ -1,23 +1,34 @@
 <template>
-  <div :class="cname">
-    <swiper :options="options">
-      <swiper-slider v-for="item in items" :key="item.href">
+  <section :class="cname">
+    <swiper :options="options" :not-next-tick="options.notNextTick">
+      <swiper-slide v-for="item in items" :key="item.href">
         <router-link :to="{ name: item.href }">
           <img :src="item.src" alt="" />
         </router-link>
-      </swiper-slider>
-      <div class="swiper-pagination" v-if="options.pagination"></div>
+      </swiper-slide>
+      <div
+        v-if="options.pagination"
+        slot="pagination"
+        class="swiper-pagination"
+      />
     </swiper>
-  </div>
+  </section>
 </template>
+
 <script>
 import { swiper, swiperSlide } from "vue-awesome-swiper";
+import "swiper/swiper-bundle.css";
 export default {
+  name: "Slider",
   components: {
     swiper,
     swiperSlide,
   },
   props: {
+    cname: {
+      type: String,
+      default: "",
+    },
     options: {
       type: Object,
       default() {
@@ -27,6 +38,7 @@ export default {
           pagination: {
             el: ".swiper-pagination",
           },
+          notNextTick: false,
         };
       },
     },
@@ -39,6 +51,6 @@ export default {
   },
 };
 </script>
-<style lang="scss">
-@import "swiper/css/swiper.css";
+
+<style lang="css">
 </style>
