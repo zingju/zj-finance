@@ -24,12 +24,14 @@
     >h4 {
         height: $height;
         line-height: $height;
-        padding: $txtPadding;
+        padding: $textPadding;
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
+        text-align: center;
         color: $color;
         font-size: $fontSize;
+        font-weight: 600;
     }
 
 }
