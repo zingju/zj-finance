@@ -4,7 +4,7 @@
       <section :class="$style.content">
         <dl :class="$style.item" v-for="item in items" :key="item.title">
           <dt>
-            {{ item.title }} <span class="red">{{ item.sub }}</span>
+            {{ item.title }}<span class="red">{{ item.sub }}</span>
           </dt>
           <dd>{{ item.rate }}</dd>
           <dd>{{ item.text }}</dd>
