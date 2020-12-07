@@ -5,6 +5,10 @@
     <Novice></Novice>
     <Loan></Loan>
     <Money></Money>
+    <Product></Product>
+    <Left></Left>
+    <Footer></Footer>
+    <NavBar></NavBar>
   </div>
 </template>
 
@@ -14,6 +18,10 @@ import Hslider from "./Hslider";
 import Novice from "./Novice";
 import Loan from "./Loan";
 import Money from "./Money";
+import Product from "./Product";
+import Left from "./Left";
+import Footer from "./Footer";
+import NavBar from "./Navbar";
 export default {
   components: {
     Heador,
@@ -21,6 +29,10 @@ export default {
     Novice,
     Loan,
     Money,
+    Product,
+    Left,
+    Footer,
+    NavBar,
   },
 };
 </script>

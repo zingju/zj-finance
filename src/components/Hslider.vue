@@ -23,36 +23,36 @@ export default {
     return {
       items: [
         {
-          href: "home",
+          href: "home1",
           src:
             "//img12.360buyimg.com/jrpmobile/jfs/t13744/11/2508939408/43213/58bfe502/5a421ff3N52d0a474.jpg?width=750&height=320",
         },
         {
-          href: "home1",
+          href: "home2",
           src:
             "//img12.360buyimg.com/jrpmobile/jfs/t16138/325/817844900/36681/5d874455/5a422029Ncd678ea3.jpg?width=750&height=320",
         },
         {
-          href: "home2",
+          href: "home3",
           src:
             "//img12.360buyimg.com/jrpmobile/jfs/t13465/324/2563794460/43029/3ffca963/5a421f83Ne8089231.jpg?width=750&height=320",
         },
       ],
       enters: [
         {
-          href: "home3",
+          href: "home4",
           img:
             "//img12.360buyimg.com/jrpmobile/jfs/t3991/64/2521945388/12110/93c0139/58d1e462Ncf294123.png?width=132&height=132",
           title: "优惠券",
         },
         {
-          href: "home4",
+          href: "home5",
           img:
             "//img12.360buyimg.com/jrpmobile/jfs/t5590/252/875247023/17343/946aa72c/59224650N0f7ffc92.png?width=132&height=132",
           title: "领红包",
         },
         {
-          href: "home5",
+          href: "home",
           img:
             "//img12.360buyimg.com/jrpmobile/jfs/t4393/329/2180608902/13217/c88c0cec/58ec9dcdN1534e2d7.png?width=132&height=132",
           title: "抢钢镚",
