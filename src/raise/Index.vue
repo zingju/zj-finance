@@ -4,6 +4,7 @@
     <Mslider></Mslider>
     <Daily></Daily>
     <In></In>
+    <More></More>
     <NavBar></NavBar>
     <Footer cname="mfooter"></Footer>
   </div>
@@ -16,6 +17,7 @@ import NavBar from "../components/Navbar";
 import Mslider from "./Rslider";
 import Daily from "./Daily";
 import In from "./In";
+import More from "./More";
 export default {
   components: {
     Heador,
@@ -24,6 +26,7 @@ export default {
     Mslider,
     Daily,
     In,
+    More,
   },
 };
 </script>

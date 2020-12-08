@@ -4,6 +4,7 @@ import Home from "../components/Home";
 import Moneys from "../Moneys/Money";
 import Ious from "../Ious/Index"
 import Raise from "../raise/Index";
+import Download from "../special/Download";
 Vue.use(VueRouter);
 
 export default new VueRouter({
@@ -33,6 +34,10 @@ export default new VueRouter({
             path: "/raise",
             name: "raise",
             component:Raise
+        }, {
+            path: "/down",
+            name: "down",
+            component:Download
         }
     ]
 })
